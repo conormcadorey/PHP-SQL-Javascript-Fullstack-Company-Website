@@ -1,0 +1,331 @@
+/*COVID19 PORTAL STYLES */
+
+#infographTitle2	{
+    text-align: right;
+}
+
+#infographTitle3	{
+    text-align: right;
+    padding: 0.2em;    
+}
+
+#infographTitle4	{    
+    text-align: center;
+    margin: auto;   
+}
+
+#infographTitle5	{   
+    font-family: 'Titillium Web', sans-serif; 
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 5em;
+}
+
+#infographTitle6	{ 
+    text-align: right;
+    margin: auto;
+    color: white;
+    cursor: pointer;   
+}
+
+#infographTitle8	{   
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    padding: 0.2em;
+    color: #2c8213;  
+}
+
+#infographTitle9	{  
+    text-align: right;
+    margin: auto;
+    color: white;
+    padding: 2em;   
+}
+
+#infographTitle10	{    
+    text-align: center;
+    margin: auto;
+    color: #2c8213;
+    padding: 1em;   
+}
+
+#infographTitle11	{   
+    text-align: left;
+    margin: auto;
+    color: white;
+    padding: 2em;   
+}
+
+#infographTitle12	{   
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 1em;    
+}
+
+#infographTitle13	{ 
+    text-align: right;
+    margin: auto;
+    color: #2c8213;
+    padding: 2em;  
+}
+
+#infographTitle14	{  
+    text-align: right;
+    margin: auto;
+    color: #2c8213;
+    padding: 1em;  
+}
+
+#infographTitle9 a:link { color: white}
+#infographTitle9 a:visited { color: white}
+#infographTitle11, #infographTitle9 { color: white}
+#infographTitle6, #infographTitle11, #infographTitle9 { text-decoration: none}
+
+#infographTitle10 a:link { color: #2c8213}
+#infographTitle10 a:visited { color: #2c8213}
+#infographTitle10 a:hover { color: #2c8213}
+#infographTitle10 { color: #2c8213}
+
+#infographTitle11 a:link { color: white}
+#infographTitle11 a:visited { color: white}
+#infographTitle11 a:hover { color: hotpink}
+#infographTitle11 { color: white}
+
+#infographTitle6 a:link { color: white}
+#infographTitle6 a:visited { color: white}
+#infographTitle6 a:hover { color: #8401ff}
+#infographTitle6 { color: white}
+#infographTitle6 a:hover { text-decoration: none;}
+
+#infographTitle13 a:link { color: #2c8213}
+#infographTitle13 a:visited { color: #2c8213}
+
+@media screen and (max-width : 1150px)
+{
+  #infographTitle6, #infographTitle9, #infographTitle10
+  {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width : 800px)
+{
+  #infographTitle1, #infographTitle4, #infographTitle2, #infographTitle8
+  {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width : 800px)
+{
+  #infographTitle3
+  {
+    margin: auto;
+      padding: 1em;
+      padding-left: 3em;
+  }
+}
+
+.parallax6  {  
+    background: #ff00ae;
+    text-align: center;
+    min-height: 100%;  
+    min-height: 100vh; 
+    margin: auto;
+}
+
+.parallax7  { 
+    background: /*#00ffc7*/#00edb9;
+    text-align: center;
+    /*Centre align bootstrap content*/
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+ 
+ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) { 
+  .parallax3, .parallax5 {
+ background-attachment:scroll !important;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    background-position: center center !important;
+  
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 700px) { 
+  .parallax3 {
+    height: 400px;
+  
+}
+}
+
+.hands	{
+  overflow: hidden;
+  position: relative;
+  margin: auto;    
+}
+
+/*.person1, .person2	{       }*/
+
+.person1	{
+    float: right;
+    position: absolute;
+    padding: 2em;
+    margin-top: 10em; 
+}
+
+.person2	{
+    float: left;
+    position: relative;
+    padding: 2em;
+    margin-top: 10em;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax6, .parallax7, .wrapperParallax  {
+    display: flex;
+    width: 100%;
+    height: 100vh;  
+}
+
+.parallax1  {
+    background-image: url('../img/legalbanner.jpg');
+    background-size: cover;
+}
+
+.parallax2  {
+    background: #8401ff;
+    position: relative;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.parallax3  {
+    height: 500px;
+    background-image: url('../img/camera2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+}
+
+.parallax4  {
+    background: aquamarine;
+    right: 0;
+    overflow-x: hidden;  
+}
+
+.parallax5  {
+    height: 400px;
+    background-image: url('../img/sun.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;   
+}
+
+@media only screen and (min-width: 800px) {
+  #infographTitle2 {
+    padding-top: 2em;
+  }
+}
+
+.arrow	{
+    margin-top: -8.5em;
+    margin-left: 12em;
+    position: absolute;  
+}
+
+@media screen and (max-width : 800px)
+{
+  .arrow
+  {
+    margin-top: -4.5em;
+    margin-left: 1em;
+
+  }
+}
+
+.arrow2	{
+    margin-left: 32em;
+    margin-top: -18em; 
+}
+
+@media screen and (max-width : 1300px)
+{
+  .arrow2
+  {
+    display: none;
+  }
+}
+
+.camera {
+    padding: 3em;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.wrapperParallax	{ 
+    background: #8401ff;
+    height: 100vh; 
+}
+
+.infographText	{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 8em;
+    z-index: 5000; 
+}
+
+.star{ 
+    margin-top: -3em;
+    position: relative;
+}
+
+@media screen and (max-width : 600px)
+{
+  .star
+  {
+    overflow: hidden;
+  }
+}
+
+.star2	{
+    float: right;
+    margin-top: 17em;
+    overflow: hidden;
+    /*margin-right: em;*/
+    position: relative;        
+}
+
+@media screen and (max-width : 600px)
+{
+  .star2
+  {
+    position: absolute;
+  }
+}
+
+.imgBoxes	{
+    position: absolute;
+    bottom: 0;
+}
+
+.covidWrap {
+    margin: auto;
+}
